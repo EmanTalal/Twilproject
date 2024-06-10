@@ -1,8 +1,9 @@
 import React from 'react'
 
-function section() {
+function Sec() {
   return (
-    <div className='text-left m-6 flex' >
+    
+    <div className='text-left m-6' >
           <h4>Top Categories of the Month</h4>
         <hr></hr> 
         <div className='flex m-4 justify-items-center'>
@@ -25,4 +26,4 @@ function section() {
   )
 }
 
-export default section
+export default Sec

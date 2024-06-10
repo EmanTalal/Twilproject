@@ -2,7 +2,8 @@
 import './App.css'
 import Nav from './compnomet/Nav'
 import Card from './compnomet/Card'
-import Section from './compnomet/Section'
+import Sec from './compnomet/Sec'
+
 
 function App() {
  
@@ -11,8 +12,8 @@ function App() {
     <>
   <Nav></Nav>
   <Card></Card>
-  <Section></Section>
-    </>
+
+<Sec></Sec>    </>
   )
 }
 
